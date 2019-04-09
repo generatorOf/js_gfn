@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+
+
+
+  <html>
+  <head>
+    <title>Kapitel 3</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+      <p id="ausgabe" >tralala </p>
+      <div id="ausgabe2"> Original Text </div>
+
+      <script>
+      //"use strict";
+      let ausgabe = 'Kapitel 3';
+      lieblingsEssen= window.prompt('Was ist dein liblingsEssen? \n Fisch in tomatensoße?');
+      lieblingsGetraenk=window.prompt('und Lieblingsgetränk?', 'Bier?');
+
+      //const NULL=0;
+
+      document.getElementById('ausgabe').innerHTML = `${lieblingsEssen}? Ausgezeichnet! \n
+      Das ist genau das, was ich heute Abend kochen wollte \n
+      und ${lieblingsGetraenk} haben wir sowieso immer reichlich da!`;
+      ausgabe=2;
+
+
+
+      console.log('Hello world');
+      </script>
+  </body>
+
+  </html>

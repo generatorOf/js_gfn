@@ -1,0 +1,30 @@
+<html>
+<head>
+  <title>Kapitel 3</title>
+  <meta charset="utf-8">
+</head>
+<body>
+    <p id="ausgabe" >tralala </p>
+    <div id="ausgabe"> Original Text </div>
+
+    <script>
+    "use strict";
+
+    //document.getElementById('ausgabe').innerHTML = Math.ceil(Math.random()*49);
+    let gestern = prompt('gibste ma bitte dein jestriget Jewicht ein, abe schnell!')
+    let heute= prompt('und jetze dit heutije! Zack zack!');
+    if (gestern>heute) {
+      alert(' pass bloß auf, dass du nicht dehydrierst und nicht abkratzt!' +
+      ` Du hast fette ' + ${100-(heute/gestern).toFixed(2)*100} % abgenommen!!!`)
+
+    }
+      else if (heute>gestern) alert('nanu! dit jejt ja wohl kaum!' +
+      'Schon wieder zujenommen du fette Sau!'
+    + `Gewichtszunahme um ' + ${(heute/gestern).toFixed(2)*100 -100} % zugenommen!!!`)
+      else alert ('übertreib mal nicht! mach mal pause! und vergiss nicht zu arbeiten! blabolabla')
+
+    console.log ('keine Null')
+    </script>
+</body>
+
+</html>

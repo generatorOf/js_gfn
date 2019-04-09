@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+
+
+
+  <html>
+  <head>
+    <title>Kapitel 3</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+      <p id="ausgabe" >tralala </p>
+      <div id="ausgabe2"> Original Text </div>
+
+      <script>
+      //"use strict";
+      let ausgabe = 'Kapitel 3';
+
+      zahl1=Number(prompt('gib mir eine Zahl:'))
+      zahl2=Number(prompt('ich brauche noch ne Zahl, bitte:'))
+
+
+
+      document.getElementById('ausgabe').innerHTML = 'deine beiden zahlen ergeben'
+      document.getElementById('ausgabe2').innerHTML = zahl1+zahl2
+
+      ausgabe=2;
+
+
+
+      console.log('Hello world');
+      </script>
+  </body>
+
+  </html>

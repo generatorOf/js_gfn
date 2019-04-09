@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+
+
+
+  <html>
+  <head>
+    <title>JS Kurs</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+      <p id="ausgabe" >tralala </p>
+      <div id="ausgabe2"> Original Text </div>
+
+      <script>
+      "use strict";
+      let strecke = prompt('geben Sie die gefahrenen Kilometer bitte an:')
+      let benzin = prompt('und jetzt auch noch die verbrauchte Benzinmenge in Liter, bitte:')
+      let tankGr = prompt('und jetzt noch bitte die Tankgröße')
+      let verbrauch = benzin/strecke*100
+      document.getElementById('ausgabe').innerHTML=`Ihr Verbrauch pro 100km` +
+      ` beträgt ${verbrauch.toFixed(2)}l.`
+      document.getElementById('ausgabe2').innerHTML=
+      `mit der Tankgröße von ${tankGr}l kommen Sie gerade mal ${(tankGr*strecke/benzin).toFixed(2)} weit!`
+
+
+      console.log(ausgabe)
+      </script>
+  </body>
+
+  </html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+
+
+
+  <html>
+  <head>
+    <title>Kapitel 3</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+      <p id="ausgabe" >tralala </p>
+      <div id="ausgabe"> Original Text </div>
+
+      <script>
+      "use strict";
+
+      //document.getElementById('ausgabe').innerHTML = Math.ceil(Math.random()*49);
+      let lotto
+      for(let n = 0; n<100060000;n++){
+          lotto=Math.ceil(Math.random()*49)
+         if(lotto === 0){
+         console.log('Null' +n);
+       };
+       console.log(lotto);
+
+      }
+      console.log ('keine Null')
+      </script>
+  </body>
+
+  </html>

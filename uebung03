@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+
+
+
+  <html>
+  <head>
+    <title>Kapitel 3</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+      <p id="ausgabe" >tralala </p>
+      <div id="ausgabe"> Original Text </div>
+
+      <script>
+      //"use strict";
+      let ausgabe = 'Kapitel 3';
+      ausgabe = 3+4;
+      ausgabe *= 2000%60;
+      ausgabe *= "Jevgeni".length**"mironov".length;
+
+      ausgabe = typeof ' blabla mit viel Spaß'  //string
+      ausgabe = typeof 0.2342134*12// NaN = not a number
+ // das drüber war weil zuerst typeof ausgeführt wird, und dann alles andere
+
+      ausgabe = typeof 0.2342134// number
+
+      ausgabe = typeof (0.2342134*12)// number
+
+      ausgabe = "Hello'"
+
+
+
+
+      document.getElementById('ausgabe').innerHTML = ausgabe;
+
+      console.log('Hello world');
+      </script>
+  </body>
+
+  </html>

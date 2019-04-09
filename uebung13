@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+
+
+
+  <html>
+  <head>
+    <title>JS Kurs</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+      <p id="ausgabe" >tralala </p>
+      <div id="ausgabe2"> Original Text </div>
+
+      <script>
+      "use strict";
+      let tale='Three hicks were working on a telephone tower - ' +
+      'Steve, Bruce and Jed. \nSteve falls off and is killed instantly.\n' +
+      'As the ambulance takes the body away, Bruce says, "Someone should go ' +
+      'and tell his wife.\" Jed says, \"Ok, I\'m pretty good at that sensetive stuff,'+
+      ' I\'ll do it.\"\nTwo hours later, he comes back carrying a case of beer.\n'+
+      'Bruce says, \"Where did you get that, Jed?\"\n\"Steve\'s wife gave it to me,\"'+
+      ' Jed replies.\n\"That\'s unbelievable, you told the lady her husband was' +
+      ' dead and she gave you beer?\"\n\"Well, not exactly\", Jed says. \"' +
+      'When she answered the door, I said to her, \'You must be Steve\s widow\'.\"\n' +
+      'She said, \"No, I\'m not a widow!\"\n'+
+      'And I said, \"I\'ll bet you a case of Budweiser you are.\"\n'
+
+      console.log(tale)
+      </script>
+  </body>
+
+  </html>
